@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "develop",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--enable-experiment=records,class-modifiers,sealed-class,patterns",
+            ]
+        },
+        {
+            "name": "profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "--enable-experiment=record,class-modifiers,sealed-class,patterns",
+            ]
+        },
+        {
+            "name": "release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--enable-experiment=records,class-modifiers,sealed-class,patterns",
+            ]
+        }
+    ]
+}
